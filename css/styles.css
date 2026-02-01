@@ -113,6 +113,7 @@ border-bottom: 1px solid #e7e9fc;
     display: flex;
     align-items: center;
     justify-items: center;
+    width: 100%;
     
 }
 
@@ -395,12 +396,11 @@ border-bottom: 1px solid #e7e9fc;
     row-gap: 48px;
 }
 
-.our-feature-item{
+.our-portfolio-item{
     transition: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    
 }
-
-
 
 
 .our-portfolio-item:hover, :focus {
@@ -408,7 +408,39 @@ border-bottom: 1px solid #e7e9fc;
 
 }
 
+.our-portfolio-item:hover .overlay{
+    transform: rotateY(0);
+}
+
+.overlay {
+    background-color: #4d5ae5;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transform: translateY(100%);
+   
+    
+}
+
+.overlay-text {
+    display: block;
+    margin: 40px 32px 0;
+    text-align: left;
+    width: 296x;
+    height: 92px;
+    
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #f4f4fd;
+    
+}
+
 .our-portfolio-imeg {
+    position: relative;
+    overflow: hidden;
 }
 
 
