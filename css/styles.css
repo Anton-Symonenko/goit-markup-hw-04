@@ -232,6 +232,14 @@ border-bottom: 1px solid #e7e9fc;
     padding: 120px 0;
 }
 
+.feature-icon {
+    width: 264px;
+    height: 112px;
+    border: 1px solid #8e8f99;
+    border-radius: 4px;
+    background-color: #f4f4fd;
+}
+
 .our-feature-list {
     display: flex;
     justify-content: space-between;
@@ -299,13 +307,37 @@ border-bottom: 1px solid #e7e9fc;
     
 }
 .profesion{
-        text-align: center;
-        font-weight: 400;
-        font-size: 16px;
-        line-height: 1.5;
-        letter-spacing: 0.02em;
-        color: #434455;
+    text-align: center;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+    margin-bottom: 8px;
         
+}
+
+.team-socila-list{
+    display: inline-flex;
+    gap: 24px;
+    
+}
+
+.team-socila-items {
+    
+    
+}
+
+.team-social-icon {
+    background-color: #4D5AE5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    gap: 24px;
+    height: 40px;
+    width: 40px;
+    fill: #fff;
 }
 
 /* #endregion our team */
@@ -424,12 +456,10 @@ border-bottom: 1px solid #e7e9fc;
 
 .footer-socila-items {
    
-    display: inline-flex;
-    
+display: inline-flex;
 }
-.footer-social-icon {
 
-
+.social-icon {
 background-color: #4D5AE5;
 display: flex;
 justify-content: center;
@@ -437,7 +467,7 @@ align-items: center;
 border-radius: 50%;
 gap: 16px;
 height: 40px;
- width: 40px;
+width: 40px;
 fill: #fff;
 
 
