@@ -268,6 +268,9 @@ ul {
     border: 1px solid #8e8f99;
     border-radius: 4px;
     background-color: #f4f4fd;
+    justify-content: center;
+    align-items: center;
+    display: flex;
 }
 
 .our-feature-list {
@@ -366,7 +369,7 @@ ul {
     gap: 24px;
     height: 40px;
     width: 40px;
-    fill: #fff;
+    fill: #f4f4fd;
     transition: color 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 
@@ -413,7 +416,7 @@ ul {
 }
 
 .our-portfolio-item:hover .overlay{
-    transform: rotateY(0);
+    transform: translateY(0);
     
 }
 
@@ -492,6 +495,7 @@ ul {
 
 .container-logo {
     display: flex;
+    gap: 120px;
 }
 
 .logo-footer {
@@ -523,16 +527,22 @@ ul {
 }
 
 .footer-social-container {
-    margin-left: 120px;
+    align-items: center;
+    justify-content: center;
+    display: block;
 }
 
 .footer-social-title {
     font-weight: 500;
     color: #fff;
     margin-bottom: 16px;
+   
 }
 
-.footer-socila-list {}
+.footer-socila-list {
+    display: inline-flex;
+    gap: 16px;
+}
 
 .footer-socila-item {}
 
@@ -547,7 +557,6 @@ display: flex;
 justify-content: center;
 align-items: center;
 border-radius: 50%;
-gap: 16px;
 height: 40px;
 width: 40px;
 fill: #fff;
