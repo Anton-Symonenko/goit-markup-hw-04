@@ -51,6 +51,16 @@ ul {
         height: auto;
     }
 
+.team-social-icon:hover{
+    background-color: #31D0AA;
+}
+
+
+.social-icon:hover{
+    background-color: #31D0AA;
+}
+    
+
 /* #endregion all */
 
 /* #region header*/
@@ -99,7 +109,26 @@ border-bottom: 1px solid #e7e9fc;
     align-items: center;
     gap: 40px;
 }
+.nav-link:hover {
+    color: #404BBF;
+}
+
+.nav-link:focus {
+    color: #404BBF;
+}
+
+.nav-list-item:active::after {
+    content: "";
+    border-radius: 2px;
+    width: 48px;
+    height: 4px;
+    background-color: #404bbf;
+    display: flex;
+    align-items: center;
+    justify-items: center;
     
+}
+
 .nav-link{
         color: #2E2F42;
         text-decoration: none;
@@ -107,12 +136,7 @@ border-bottom: 1px solid #e7e9fc;
         display: block;
      }
 
-.nav-link:hover {
-     color: #404BBF;
-    }
-.nav-link:focus {
-    color: #404BBF;
-}
+
 
 
 .address {
