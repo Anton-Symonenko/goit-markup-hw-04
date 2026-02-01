@@ -373,9 +373,11 @@ border-bottom: 1px solid #e7e9fc;
     margin-bottom: 0 auto;
     padding: 100px 0;
     
+    
 }
 
 .container-logo {
+    display: flex;
 }
 
 .logo-footer {
@@ -405,5 +407,41 @@ border-bottom: 1px solid #e7e9fc;
     text-align: left;
     width: 264px;
 }
+
+.footer-social-container {
+    margin-left: 120px;
+}
+
+.footer-social-title {
+    font-weight: 500;
+    color: #fff;
+    margin-bottom: 16px;
+}
+
+.footer-socila-list {}
+
+.footer-socila-item {}
+
+.footer-socila-items {
+   
+    display: inline-flex;
+    
+}
+.footer-social-icon {
+
+
+background-color: #4D5AE5;
+display: flex;
+justify-content: center;
+align-items: center;
+border-radius: 50%;
+gap: 16px;
+height: 40px;
+ width: 40px;
+fill: #fff;
+
+
+}
+
 
 /* #endregion footer */
