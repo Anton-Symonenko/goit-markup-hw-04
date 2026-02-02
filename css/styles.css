@@ -453,11 +453,10 @@ ul {
 
 .overlay-text {
     display: block;
-    margin: 40px 32px 0;
+    padding: 40px 32px 0;
     text-align: left;
     width: 296x;
     height: 92px;
-    
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
