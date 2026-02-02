@@ -283,6 +283,7 @@ ul {
     justify-content: center;
     align-items: center;
     display: flex;
+    margin-bottom: 8px;
 }
 
 .our-feature-list {
@@ -370,6 +371,10 @@ ul {
 .team-socila-items {
     
     
+}
+
+.svg-social-icon {
+    fill: #f4f4fd
 }
 
 .team-social-icon {
